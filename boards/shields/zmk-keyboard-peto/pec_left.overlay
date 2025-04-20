@@ -1,4 +1,4 @@
-#include "my_keyboard.dtsi"
+#include "pec.dtsi"
 
 // Label of the kscan node in the dtsi
 &kscan0 {
