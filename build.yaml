@@ -18,3 +18,12 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+board: [ "nice_nano_v2" ]
+shield: [ "pec_left", "pec_right" ]
+include:
+  - board: nice_nano_v2
+    shield: pec_left
+    artifact-name: pec_left
+  - board: nice_nano_v2
+    shield: pec_right
+    artifact-name: pec_right
